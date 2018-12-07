@@ -12,5 +12,6 @@ def areacir(r):
 
 # Programa que calcula area y perimetro de un circulo
 r=int(input('Ingresa el radio del circulo : ' ))
-print('el area del circulo es : ' + str(areacir(r)))
+print('El radio del circulo es ' + str(r))
+print('El area del circulo es : ' + str(areacir(r)))
 print('El perimetro del circulo es : ' + str(percir(r)))
